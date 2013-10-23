@@ -1,0 +1,68 @@
+\documentclass[a4paper,twoside,notitlepage,11pt]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage[explicit]{titlesec}
+\usepackage[all]{xy}
+\usepackage{nccmath}
+\usepackage[a4paper,hmargin=75pt,vmargin=75pt]{geometry}
+\usepackage[hypcap]{caption}
+\usepackage{qtree}
+\usepackage{cleveref}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{latexsym}
+\usepackage{changepage}
+\usepackage{mdframed}
+\usepackage{hyperref}
+\usepackage{enumerate}
+
+\newcommand{\paperTitle}{Society Constitution Form}
+\setlength{\parskip}{0.3em}
+
+
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyhead[LE]{\thepage}
+\fancyhead[CE]{}
+\fancyhead[RE]{HackSoc}
+\fancyhead[LO]{HackSoc}
+\fancyhead[CO]{}
+\fancyhead[RO]{\thepage}
+}
+\newcommand{\hsspace}{\usebox{\spaceb}}
+\newcommand{\hstab}{\usebox{\tabb}}
+\newcommand{\consHead}[1]{\begin{Large}\textbf{#1}\end{Large}\ \\}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+	\begin{LARGE}
+		\paperTitle \\
+	\end{LARGE}
+\end{center}
+\begin{flushright}
+Date Recognised/Renewed: \today \\
+\end{flushright}
+
+\newcounter{sectionLabel}
+
+\noindent
+\consHead{Society Name: HackSoc}
+\consHead{Aims \& Objectives}
+\consHead{Committee}
+\consHead{Finance}
+\consHead{Elections}
+\consHead{General Elections}
+\consHead{Constitution}
+\consHead{Authority}
+
+\end{document}
+
