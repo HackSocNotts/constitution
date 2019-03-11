@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: hacksoc/constituion-builder
+
+    environment:
+      bothook: https://constitution-bot.hacksoc.net/constitution-bot/artifact/
+      projectRoot: /root/project
+
+    steps:
+      - checkout
+      - run:
+          name: CheckProd
+          command: checkProd
+      - run:
+          name: Compile
+          command: pdflatex main.tex
+      - store_artifacts:
+            path: main.pdf
+            destination: constitution.pdf
+
+      # This should be it's own job
+      - run:
+          name: Comment
+          command: publish
+
+workflows:
+  version: 2
+
+  build-comment:
+    jobs:
+      - build
