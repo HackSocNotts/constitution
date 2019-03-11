@@ -10,7 +10,7 @@ When HackSoc holds an EGM or AGM, members may propose amendments. They should do
 When adding/changing files please ensure that you respect the way the tree is sorted.
  - Don't edit `main.tex` unless you're adding/removing a section
  - Only ever `input` a `src/[section]/index.tex` file in main
- - Every clause/paragraph should be it's own file
- - Where a clause has multiple sections (e.g. officers), each clear section should have it's own file in a subfolder
+ - Every clause/paragraph should be its own file
+ - Where a clause has multiple sections (e.g. officers), each clear section should have its own file in a subfolder
 
 If you fail to comply with these guidelines your branch will be edited accordingly.
