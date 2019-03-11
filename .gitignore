@@ -172,3 +172,6 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~*
+
+*.pdf
+*.aux
