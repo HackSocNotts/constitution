@@ -13,4 +13,4 @@ When adding/changing files please ensure that you respect the way the tree is so
  - Every clause/paragraph should be it's own file
  - Where a clause has multiple sections (e.g. officers), each clear section should have it's own file in a subfolder
 
-If you fail to comply with these guidlines your branch will be edited accordingly.
+If you fail to comply with these guidelines your branch will be edited accordingly.
