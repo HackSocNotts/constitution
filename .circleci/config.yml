@@ -6,6 +6,7 @@ jobs:
 
     environment:
       bothook: https://constitution-bot.hacksoc.net/constitution-bot/artifact/
+      bothook2: https://constitution-bot.hacksoc.net/constitution-bot/release/
       projectRoot: /root/project
 
     steps:
