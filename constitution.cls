@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 
-\ProvidesClass{constitution}[2009/05/15 v0.0.1 Document class for typesetting a constitution]
+\ProvidesClass{constitution}[Document class for HackSoc Constitution]
 
 \LoadClass[a4paper,twoside,notitlepage,11pt]{article}
 \RequirePackage[dvipsnames]{xcolor}
@@ -8,7 +8,6 @@
 \RequirePackage[colorlinks,linkcolor=darkgray]{hyperref}
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
-\RequirePackage{hyperref}
 \RequirePackage{catchfile}
 
 % Temporary
