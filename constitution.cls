@@ -4,32 +4,11 @@
 
 \LoadClass[a4paper,twoside,notitlepage,11pt]{article}
 \RequirePackage[dvipsnames]{xcolor}
-\RequirePackage[letterpaper,margin=20mm]{geometry}
+\RequirePackage[a4paper,margin=20mm]{geometry}
 \RequirePackage[colorlinks,linkcolor=darkgray]{hyperref}
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
-\RequirePackage{paralist}
-\RequirePackage{graphicx}
 \RequirePackage{hyperref}
-\RequirePackage{amstext}
-\RequirePackage{amssymb}
-\RequirePackage{fancyhdr}
-\RequirePackage{tocloft}
-\RequirePackage{titletoc}
-\RequirePackage[explicit]{titlesec}
-\RequirePackage[all]{xy}
-\RequirePackage{nccmath}
-\RequirePackage[a4paper,hmargin=75pt,vmargin=2cm]{geometry}
-\RequirePackage[hypcap]{caption}
-\RequirePackage{cleveref}
-\RequirePackage{amssymb}
-\RequirePackage{listings}
-\RequirePackage{float}
-\RequirePackage{latexsym}
-\RequirePackage{changepage}
-\RequirePackage{mdframed}
-\RequirePackage{hyperref}
-\RequirePackage{enumerate}
 \RequirePackage{catchfile}
 
 % Temporary
