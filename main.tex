@@ -1,5 +1,15 @@
-% Document class and other header infomration
-\input{src/meta/head.tex}
+\documentclass{constitution}
+
+\input{src/meta/watermark.tex}
+
+\newcommand{\paperTitle}{HackSoc Constitution}
+\setlength{\parskip}{0.3em}
+
+\newcommand{\getenv}[2][]{%
+  \CatchFileEdef{\temp}{"|kpsewhich --var-value #2"}{}%
+  \if\relax\detokenize{#1}\relax\temp\else\let#1\temp\fi}
+
+\begin{document}
 
 % Heading and Recognition Date
 \input{src/meta/header.tex}
@@ -7,27 +17,15 @@
 
 % Society Name Section
 \input{src/core/society-name.tex}
-\ \\
-\ \\
 \input{src/core/aims-and-objectives}
-\input{src/core/1.4.tex}
-\ \\
-\ \\
+\input{src/core/union-policies.tex}
 \input{src/sections/membership/index.tex}
-\ \\
 \input{src/sections/committee/index.tex}
-\ \\
 \input{src/sections/sub-groups/index.tex}
-\ \\
 \input{src/sections/finance/index.tex}
-\ \\
 \input{src/sections/elections/index.tex}
-\ \\
 \input{src/sections/appointment/index.tex}
-\ \\
 \input{src/sections/general-elections/index.tex}
-\ \\
 \input{src/sections/constitution/index.tex}
-\ \\
 \input{src/sections/authority/index.tex}
 \input{src/meta/foot.tex}
