@@ -9,6 +9,7 @@
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
 \RequirePackage{catchfile}
+\RequirePackage{graphicx}
 
 % Temporary
 \setcounter{section}{1}
