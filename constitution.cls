@@ -11,6 +11,7 @@
 \RequirePackage{catchfile}
 \RequirePackage{graphicx}
 \RequirePackage{changepage}
+\RequirePackage{enumitem}
 
 \titleformat{\section}[hang]{\normalfont}
 {\thesection~~~}{.5em}{}[\quad]
