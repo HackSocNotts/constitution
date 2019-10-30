@@ -11,9 +11,6 @@
 \RequirePackage{catchfile}
 \RequirePackage{graphicx}
 
-% Temporary
-\setcounter{section}{1}
-
 \titleformat{\section}[hang]{\normalfont}
 {\thesection~~~}{.5em}{}[\quad]
 \titleformat{\section}[hang]{\fontsize{14}{17}\bfseries}{\noindent\thesection. }{1pt}{}[\quad]
