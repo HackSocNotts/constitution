@@ -10,9 +10,8 @@
 \RequirePackage{titletoc}
 \RequirePackage{catchfile}
 \RequirePackage{graphicx}
-
-% Temporary
-\setcounter{section}{1}
+\RequirePackage{changepage}
+\RequirePackage{enumitem}
 
 \titleformat{\section}[hang]{\normalfont}
 {\thesection~~~}{.5em}{}[\quad]
@@ -32,4 +31,4 @@
 \makeatletter
 \@addtoreset{subclause}{clause}
 \makeatother
-\newenvironment{subclause}[1][]{\refstepcounter{subclause}\par\medskip\noindent\thesection.\theclause.\thesubclause #1 \rmfamily}{\medskip}
+\newenvironment{subclause}[1][]{\begin{adjustwidth}{5mm}{}\refstepcounter{subclause}\par\medskip\noindent\thesection.\theclause.\thesubclause #1 \rmfamily}{\medskip\end{adjustwidth}}
